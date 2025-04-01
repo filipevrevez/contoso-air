@@ -45,7 +45,7 @@ env:
   CLUSTER_RESOURCE_GROUP: AKSRG
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
   DEPLOYMENT_MANIFEST_PATH: ./manifests
-  DOCKER_FILE: src/web
+  DOCKER_FILE: src/Dockerfile
   BUILD_CONTEXT_PATH: ./web
   NAMESPACE: dev
   ENABLENAMESPACECREATION: false
